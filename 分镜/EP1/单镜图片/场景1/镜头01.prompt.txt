@@ -1,0 +1,45 @@
+来源：分镜/EP1/EP1-场景1.md · 镜头01
+
+初始出图提示词（分镜共用段 + 镜头段）：
+
+Use case: illustration-story. Generate exactly ONE finished vertical 9:16 storyboard shot, not a contact sheet. Reference image 1 is STYLE ONLY; do not copy its supermarket scene or people. The following references are character identity sheets and, if included last, the boxing gym spatial reference; never copy their multiview layout. Only show the characters actually requested in the Shot section. The specific Shot section overrides general cast, background and composition defaults.
+
+Single vertical 9:16 anime frame for a mobile motion comic, one single continuous image, full-bleed, no panels, no borders.
+Composition safe zone: keep faces and key action in the upper and central area; keep the bottom 20% and the right 15% free of key details (subtitles and UI overlay).
+
+Location: title-sequence black stage: a borderless pitch-black abstract stage with no floor, no walls and no furnishings, drawn as flat 2D anime artwork; one single soft key light from the upper-left; nothing else exists in the space.
+Light: one single soft key light from the upper-left, no second light source; the black is flat painted black, not a photographic void.
+
+Characters (match the attached character sheets exactly; keep each character's own body proportions, nobody re-proportioned, nobody turned chibi):
+Saitama (One Punch Man): completely bald head, minimal black dot eyes, blank deadpan expression, plain yellow jumpsuit with black belt, white cape, red gloves, red boots, plain adult male build
+
+Style: High-quality polished modern 2D anime key-visual illustration, hand-drawn 2D cel-animation artwork, similar to official TV anime key visual art. Clean precise medium-weight black line art, clearly visible on every edge including hair, clothing, props and background, never softened away, never blurred, never replaced by airbrushed gradients. Hard-edged flat two-tone cel shading on skin and hair with crisp shadow boundaries, no airbrushed gradients on faces, no soft blur on skin. Fully illustrated 2D painted backgrounds with believable depth and perspective, built from flat color planes and crisp hand-drawn linework, with only minimal hard-edged two-tone cel shading and no soft gradients on walls, floors or furnishings. Natural believable color palette, not oversaturated, not flat. Refined facial rendering with subtle eye highlights, clean line art and nuanced expressions. Professional anime-production-level polish and consistency across every panel. Hand-drawn 2D illustration only, painted cel look, 2D animation artwork.
+
+No text, no letters, no speech bubbles, no captions, no watermark, no signature. High detail.
+Negative: no text, no letters, no captions, no subtitles, no speech bubbles, no watermark, no signature, no panel borders, no comic panel layout, no split screen, no character redesign, no outfit change, no hairstyle change, no extra or missing limbs, no deformed hands, no duplicated characters, no dark gloomy lighting, no warehouse look, no photorealistic or live-action rendering, no 3D render, no oversaturated colors, no CGI, no computer-generated look, no videogame cutscene look, no clay or plastic render, no ray-traced lighting, no global illumination, no ambient occlusion, no volumetric light shafts, no lens flare, no depth of field, no bokeh, no photographic blur, no specular PBR highlights, no metallic PBR shading, no subsurface scattering, no soft airbrush rendering on skin, no airbrushed gradient replacing line art, no missing or faded outlines, no 3D-looking background, no photoreal materials
+
+[01] Shot: extreme close-up, slight high angle. On the pitch-black stage, a single closed worn dark-red hardcover book with a blank cover rests in the lower-middle of the frame; one soft beam of light from the upper-left grazes the edge of the cover. Hand-drawn 2D book with clean black outlines and flat two-tone shading, not a 3D render. Nothing else in frame.
+
+最终生成／修正提示词：
+
+Use case: illustration-story. Generate exactly ONE finished vertical 9:16 storyboard shot, not a contact sheet. Reference image 1 is STYLE ONLY; do not copy its supermarket scene or people. The following references are character identity sheets and, if included last, the boxing gym spatial reference; never copy their multiview layout. Only show the characters actually requested in the Shot section. The specific Shot section overrides general cast, background and composition defaults.
+
+Single vertical 9:16 anime frame for a mobile motion comic, one single continuous image, full-bleed, no panels, no borders.
+Composition safe zone: keep faces and key action in the upper and central area; keep the bottom 20% and the right 15% free of key details (subtitles and UI overlay).
+
+Location: title-sequence black stage: a borderless pitch-black abstract stage with no floor, no walls and no furnishings, drawn as flat 2D anime artwork; one single soft key light from the upper-left; nothing else exists in the space.
+Light: one single soft key light from the upper-left, no second light source; the black is flat painted black, not a photographic void.
+
+Characters (match the attached character sheets exactly; keep each character's own body proportions, nobody re-proportioned, nobody turned chibi):
+Saitama (One Punch Man): completely bald head, minimal black dot eyes, blank deadpan expression, plain yellow jumpsuit with black belt, white cape, red gloves, red boots, plain adult male build
+
+Style: High-quality polished modern 2D anime key-visual illustration, hand-drawn 2D cel-animation artwork, similar to official TV anime key visual art. Clean precise medium-weight black line art, clearly visible on every edge including hair, clothing, props and background, never softened away, never blurred, never replaced by airbrushed gradients. Hard-edged flat two-tone cel shading on skin and hair with crisp shadow boundaries, no airbrushed gradients on faces, no soft blur on skin. Fully illustrated 2D painted backgrounds with believable depth and perspective, built from flat color planes and crisp hand-drawn linework, with only minimal hard-edged two-tone cel shading and no soft gradients on walls, floors or furnishings. Natural believable color palette, not oversaturated, not flat. Refined facial rendering with subtle eye highlights, clean line art and nuanced expressions. Professional anime-production-level polish and consistency across every panel. Hand-drawn 2D illustration only, painted cel look, 2D animation artwork.
+
+No text, no letters, no speech bubbles, no captions, no watermark, no signature. High detail.
+Negative: no text, no letters, no captions, no subtitles, no speech bubbles, no watermark, no signature, no panel borders, no comic panel layout, no split screen, no character redesign, no outfit change, no hairstyle change, no extra or missing limbs, no deformed hands, no duplicated characters, no dark gloomy lighting, no warehouse look, no photorealistic or live-action rendering, no 3D render, no oversaturated colors, no CGI, no computer-generated look, no videogame cutscene look, no clay or plastic render, no ray-traced lighting, no global illumination, no ambient occlusion, no volumetric light shafts, no lens flare, no depth of field, no bokeh, no photographic blur, no specular PBR highlights, no metallic PBR shading, no subsurface scattering, no soft airbrush rendering on skin, no airbrushed gradient replacing line art, no missing or faded outlines, no 3D-looking background, no photoreal materials
+
+[01] Shot: extreme close-up, slight high angle. On the pitch-black stage, a single closed worn dark-red hardcover book with a blank cover rests in the lower-middle of the frame; one soft beam of light from the upper-left grazes the edge of the cover. Hand-drawn 2D book with clean black outlines and flat two-tone shading, not a 3D render. Nothing else in frame.
+
+最终使用的参考图（按上传顺序）：
+/Users/murphy/code/ai/one-punch-but-real/素材/画风/画风参考.png
+/Users/murphy/code/ai/one-punch-but-real/素材/角色/埼玉-三视图.png
