@@ -1,3 +1,4 @@
 # EP1 单镜正式出图与角色参考修正版由 Git LFS 管理；备选图留在普通 Git 忽略范围之外。
 分镜/EP1/单镜图片/场景*/*.png filter=lfs diff=lfs merge=lfs -text
 分镜/EP1/单镜图片/_参考修正/*.png filter=lfs diff=lfs merge=lfs -text
+成片/*/*.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -9,3 +9,7 @@ tmp/
 Thumbs.db
 desktop.ini
 *.log
+
+# 成片构建中间产物（可由 成片/<EP>/工程/build.sh 重新生成）
+成片/*/工程/build/
+__pycache__/
