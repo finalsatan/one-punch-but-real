@@ -2,3 +2,7 @@
 分镜/EP1/单镜图片/场景*/*.png filter=lfs diff=lfs merge=lfs -text
 分镜/EP1/单镜图片/_参考修正/*.png filter=lfs diff=lfs merge=lfs -text
 成片/*/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# 素材/音色：调研试听、新旧对比音频走 Git LFS（音频单文件小，但避免仓库膨胀）
+素材/音色/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+素材/音色/**/*.wav filter=lfs diff=lfs merge=lfs -text

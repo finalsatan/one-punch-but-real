@@ -14,7 +14,7 @@ VOICES = {
                design='5岁小男孩的动画角色嗓音，音色略沙哑、带一点鼻音，说话爱拖长音，懒洋洋又贱兮兮，'
                       '语调忽高忽低、拐着弯，透着调皮捣蛋和小聪明',
                voice='zh-CN-YunxiaNeural', rate='-6%', pitch='-4Hz'),
-    '龙卷': dict(color='&H3C9A1E', speed=1.05,
+    '龙卷': dict(color='&H3C9A1E', speed=0.95,
                design='动画少女角色嗓音，清亮偏高、略尖，傲娇又高傲，居高临下、带着不耐烦和轻蔑，'
                       '语速偏快，咬字干脆，自尊心很强',
                voice='zh-CN-XiaoyiNeural', rate='+4%', pitch='+6Hz'),
@@ -26,7 +26,7 @@ VOICES = {
                  design='圆滚滚的卡通机器猫嗓音，中音偏低、略带沙哑和鼻音，憨厚温暖、热情友好，'
                         '像耐心照顾小朋友的伙伴，语气轻快带笑意',
                  voice='zh-CN-XiaoxiaoNeural', rate='+6%', pitch='-12Hz'),
-    '旁白': dict(color='&H202020', speed=1.0,
+    '旁白': dict(color='&H202020', speed=0.9,
                design='成熟男性旁白，浑厚有磁性，综艺与科普节目解说风格，节奏感强、有张力，吐字清晰',
                voice='zh-CN-YunjianNeural', rate='+0%', pitch='+0Hz'),
 }

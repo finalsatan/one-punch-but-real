@@ -13,3 +13,6 @@ desktop.ini
 # 成片构建中间产物（可由 成片/<EP>/工程/build.sh 重新生成）
 成片/*/工程/build/
 __pycache__/
+
+# Python 虚拟环境（成片构建用 numpy/scipy）
+.venv/

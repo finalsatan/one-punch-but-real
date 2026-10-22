@@ -1,0 +1,10 @@
+{
+ "_note": "Fish Audio 音色模型 reference_id，选型依据见 素材/音色/音色调研.md。换音色只改这里，再删 build/voice/ 下对应 wav 重跑 tts.py。",
+ "_profile": "s2.1-pro-free",
+ "小新": "e71bbb278a8944cfbdc8e8373c4c0fd4",
+ "埼玉": "c2acb77604894ebaab22d29ecefeab32",
+ "龙卷": "2c13c2a81fb74f7c8d00053a9c49e84c",
+ "哆啦A梦": "0c8413c0848b4336bb95aaaa72d9612b",
+ "比斯基": "bf2fc28e610b4700870d5eed26e3c1b2",
+ "旁白": "ba6476a5bcf94b2eb4a37978cc92678f"
+}
