@@ -404,7 +404,10 @@ def main():
 
     for s in shots:
         for l in s['lines']:
-            place(voice, load_wav(l['wav']), s['start'] + l['start'], .9)
+            v = load_wav(l['wav'])
+            # 各句响度对齐：RMS 统一到约 -17 dBFS，峰值不超过 0.95
+            v = v * min(.14 / (np.sqrt(np.mean(v ** 2)) + 1e-9), .95 / (np.abs(v).max() + 1e-9))
+            place(voice, v, s['start'] + l['start'])
         for name, at in s.get('sfx', []):
             at = s['len'] - .25 if at is None else at
             place(sfx, fx(name), s['start'] + at)

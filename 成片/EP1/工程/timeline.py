@@ -6,13 +6,37 @@
 
 IMG = '分镜/EP1/单镜图片/场景{s}/镜头{k}.png'
 
-# 角色配音（edge-tts）：voice, rate, pitch；color 为字幕描边色（ASS &HBBGGRR）
+# 角色配音。主用 MiniMax「音色设计」：design 为音色描述（design_voices.py 据此生成 voice_id，存 voices_minimax.json），
+# speed 为语速。无 MiniMax key 时回退 edge-tts（voice/rate/pitch）。color 为字幕描边色（ASS &HBBGGRR）。
+# 均为按角色特征设计的原创音色，不克隆任何真人配音演员。
 VOICES = {
-    '小新':   dict(voice='zh-CN-YunxiaNeural',   rate='-6%',  pitch='-4Hz',  color='&H1E2AD8'),  # 红
-    '龙卷':   dict(voice='zh-CN-XiaoyiNeural',   rate='+4%',  pitch='+6Hz',  color='&H3C9A1E'),  # 绿
-    '埼玉':   dict(voice='zh-CN-YunyangNeural',  rate='-12%', pitch='-6Hz',  color='&H10A8D8'),  # 黄
-    '哆啦A梦': dict(voice='zh-CN-XiaoxiaoNeural', rate='+6%',  pitch='-12Hz', color='&HD8901E'),  # 蓝
-    '旁白':   dict(voice='zh-CN-YunjianNeural',  rate='+0%',  pitch='+0Hz',  color='&H202020'),
+    '小新': dict(color='&H1E2AD8', speed=.95,
+               design='5岁小男孩的动画角色嗓音，音色略沙哑、带一点鼻音，说话爱拖长音，懒洋洋又贱兮兮，'
+                      '语调忽高忽低、拐着弯，透着调皮捣蛋和小聪明',
+               voice='zh-CN-YunxiaNeural', rate='-6%', pitch='-4Hz'),
+    '龙卷': dict(color='&H3C9A1E', speed=1.05,
+               design='动画少女角色嗓音，清亮偏高、略尖，傲娇又高傲，居高临下、带着不耐烦和轻蔑，'
+                      '语速偏快，咬字干脆，自尊心很强',
+               voice='zh-CN-XiaoyiNeural', rate='+4%', pitch='+6Hz'),
+    '埼玉': dict(color='&H10A8D8', speed=.9,
+               design='二十多岁青年男性，中低音，语气极其平淡、几乎没有起伏，懒散没干劲，像刚睡醒，'
+                      '面无表情的冷幽默，说话慢条斯理、漫不经心',
+               voice='zh-CN-YunyangNeural', rate='-12%', pitch='-6Hz'),
+    '哆啦A梦': dict(color='&HD8901E', speed=1.0,
+                 design='圆滚滚的卡通机器猫嗓音，中音偏低、略带沙哑和鼻音，憨厚温暖、热情友好，'
+                        '像耐心照顾小朋友的伙伴，语气轻快带笑意',
+                 voice='zh-CN-XiaoxiaoNeural', rate='+6%', pitch='-12Hz'),
+    '旁白': dict(color='&H202020', speed=1.0,
+               design='成熟男性旁白，浑厚有磁性，综艺与科普节目解说风格，节奏感强、有张力，吐字清晰',
+               voice='zh-CN-YunjianNeural', rate='+0%', pitch='+0Hz'),
+}
+
+# 逐句情绪（MiniMax emotion：happy/sad/angry/fearful/disgusted/surprised/calm），键为 镜号_台词序号
+EMOTION = {
+    '1-03_0': 'happy', '2-06_0': 'happy', '2-06_1': 'happy', '2-08_0': 'surprised',
+    '3-02_0': 'calm', '3-04_0': 'calm', '3-05_0': 'calm', '3-06_0': 'happy', '3-06_1': 'happy',
+    '3-07_0': 'calm', '5-02_0': 'happy', '5-03_0': 'happy', '6-05_0': 'calm', '6-06_0': 'sad',
+    '7-01_0': 'calm',
 }
 
 LEAD, TAIL = 0.20, 0.40   # 台词前置 / 收尾留白（秒）
